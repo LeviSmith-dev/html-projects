@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: Gotham;
-	src: url(fonts/gotham/gotham-light1.ttf);
+	src: url(fonts/gotham/gotham-thin.ttf);
 }
 /* Header Styles */
 
@@ -29,16 +29,16 @@ body {
 	margin-left: 250px;
 }
 
-#models ul li {
+#models a {
 	display:inline-block;
 	text-align: center;
 	padding:10px;
 	font-size: .81em;
 	line-height: 1.125em;
-	
+	text-decoration: none;
 }
 
-#models p:hover {
+#models a:hover {
 	text-decoration: underline;
 }
 
@@ -47,10 +47,12 @@ body {
 	margin-right: 190px;
 	padding:6px;
 	font-size: .80em;
+	text-decoration: none;
 }
 
-#nav-right li p {
+#nav-right a:hover {
 	color:rgba(255, 255, 255, .6);
+	cursor:pointer;
 }
 
 
@@ -67,16 +69,11 @@ body {
 	width:100%;
 	text-align: center;
 	font-weight: 300;
+	font-size: 3em;
 }
 
-#content h1:hover {
-	text-decoration: underline;
-}
 
 #content p {
-	-webkit-transition: color 500ms ease-in;
-	-moz-transition: color 500ms ease-in;
-	-o-transition: color 500ms ease;
 	text-align: center;
 	text-decoration: underline;
 	padding-top: 15px;
@@ -97,6 +94,7 @@ body {
 	padding:10px 10px 10px 10px;
 	font-size: 1.2em;
 	width:200px;
+	border:1px solid transparent;
 }
 
 .package p:hover {
@@ -126,15 +124,16 @@ body {
 	bottom:0px;
 }
 
-#skinny-footer ul li {
+#skinny-footer a {
 	display:inline-block;
 	margin:10px;
+	text-decoration: none;
 }
 
-#skinny-footer ul li:hover {
+#skinny-footer a:hover {
 	text-decoration: underline;
+	cursor:pointer;
 }
-
 
 
 
