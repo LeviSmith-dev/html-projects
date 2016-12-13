@@ -1,0 +1,141 @@
+* {
+	color:white;
+	margin:0px;
+}
+
+@font-face {
+	font-family: Gotham;
+	src: url(fonts/gotham/gotham-light1.ttf);
+}
+/* Header Styles */
+
+body {
+	background: url('img/tesla.jpg') no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size: cover;
+	position:center;
+	font-family: Gotham, sans-serif;
+}
+#header {
+	position: fixed;
+	display:inline-block;
+	left:0px;
+	top:0px;
+	width:100%;
+}
+
+#logo svg {
+	margin-left: 250px;
+}
+
+#models ul li {
+	display:inline-block;
+	text-align: center;
+	padding:10px;
+	font-size: .81em;
+	line-height: 1.125em;
+	
+}
+
+#models p:hover {
+	text-decoration: underline;
+}
+
+#nav-right {
+	float:right;
+	margin-right: 190px;
+	padding:6px;
+	font-size: .80em;
+}
+
+#nav-right li p {
+	color:rgba(255, 255, 255, .6);
+}
+
+
+/* Wrapper Styles */
+
+#wrapper {
+	margin-top: 150px;
+}
+
+/* Content styles */
+
+
+#content h1 {
+	width:100%;
+	text-align: center;
+	font-weight: 300;
+}
+
+#content h1:hover {
+	text-decoration: underline;
+}
+
+#content p {
+	-webkit-transition: color 500ms ease-in;
+	-moz-transition: color 500ms ease-in;
+	-o-transition: color 500ms ease;
+	text-align: center;
+	text-decoration: underline;
+	padding-top: 15px;
+	color:rgba(255, 255, 255, .6);
+}
+
+#content p:hover {
+	transition: rgba(255, 255, 255, 1) 500ms ease;
+}
+
+.package p {
+	-webkit-transition: border 125ms ease;
+	-moz-transition: border 125ms ease;
+	-o-transition: border 125ms ease;
+	transition: border 125ms ease;
+	background-color: rgba(122, 108, 98, .6);
+	margin:8px;
+	padding:10px 10px 10px 10px;
+	font-size: 1.2em;
+	width:200px;
+}
+
+.package p:hover {
+	border:1px solid white;
+}
+
+#table {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding:10px 0px 0px 0px;
+	text-align: center;
+	border:0px solid white;
+}
+
+/* Footer Styles */
+
+#skinny-footer {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	font-align:center;
+	padding-left: 28%;
+	bottom:0px;
+}
+
+#skinny-footer ul li {
+	display:inline-block;
+	margin:10px;
+}
+
+#skinny-footer ul li:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
